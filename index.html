@@ -16,15 +16,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="build/css/app.css" />
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header class="header">
       <div class="nav">
         <div class="container container-header">
-          <a href="#">
-            <div class="img">
-              <img src="build/img/logo-nav.webp" alt="logo" />
-            </div>
+          <a href="#" class="header-logo">
+            <h1>
+              Easy
+              <span class="company">company</span>
+            </h1>
           </a>
           <div class="navegacion-principal">
             <a href="#marketing">Marketing</a>
@@ -37,40 +45,65 @@
 
       <div class="hero container">
         <div class="hero-texto">
-          <h1>Easy 
-              <span class="company">company</span>
-          </h1>
+          <div class="img">
+            <img src="build/img/logo-nav.webp" alt="logo" />
+          </div>
           <h2>Hacemos tu empresa más fácil</h2>
         </div>
         <div class="hero-svg">
-          <img src="build/svg/scenes01.svg" alt="Image about digital work">
+          <img src="build/svg/scenes01.svg" alt="Image about digital work" />
         </div>
-      </div>
-
-      <div class="custom-shape-divider-bottom-1632535967">
-        <svg
-          data-name="Layer 1"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1200 120"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
-            class="shape-fill"
-          ></path>
-        </svg>
       </div>
     </header>
 
     <div class="container container-principal text-center">
-        <img src="build/img/construyendo.webp" alt="construyendo">
-        <h3>Construyendo</h3>
+      <img src="build/img/construyendo.webp" alt="construyendo" />
+      <h3>Construyendo</h3>
     </div>
 
     <footer class="footer">
+      <div class="footer-legal">
+        <p>Legal warning</p>
+        <p>Privacy Policy</p>
+        <p>Copyrigth 2021</p>
+        <p>
+          Powered by
+          <a href="https://daviiduhh.com" class="daviiduhh">daviiduhh</a>
+        </p>
+      </div>
 
+      
+      <div class="footer-social">
+        <div class="footer-social-logo">
+          <a href="#">
+            <img src="build/img/logo-nav.webp" alt="logo" />
+          </a>
+        </div>
+        <div class="footer-social-flex">
+          <!-- Add font awesome icons -->
+
+          <a href="" class="redsocial">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="redsocial">
+            <i class="far fa-envelope"></i>
+          </a>
+          <a href="" class="redsocial">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="redsocial">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#marketing">Marketing</a>
+        <a href="#legal">Legal</a>
+        <a href="#administracionfinanciera">Administración financiera</a>
+        <a href="#contacto">Contacto</a>
+      </div>
     </footer>
-
     <script src="build/js/bundle.min.js"></script>
   </body>
 </html>
