@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="202.88989mm"
+   height="181.68132mm"
+   viewBox="0 0 202.88989 181.68132"
    version="1.1"
    id="svg130"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="Scenes01.svg"
+   sodipodi:docname="scenes01.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,21 +25,25 @@
      showgrid="false"
      showguides="false"
      inkscape:zoom="0.49887767"
-     inkscape:cx="215.48369"
-     inkscape:cy="560.25759"
+     inkscape:cx="456.02362"
+     inkscape:cy="464.04162"
      inkscape:window-width="1366"
      inkscape:window-height="745"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g294" />
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs127">
     <linearGradient
        id="paint0_linear"
        x1="634.203"
-       y1="-7.66352"
-       x2="918.04"
+       y1="-7.6635199"
+       x2="918.03998"
        y2="1414.72"
        gradientUnits="userSpaceOnUse">
       <stop
@@ -53,9 +57,9 @@
     <linearGradient
        id="paint1_linear"
        x1="667.724"
-       y1="234.221"
+       y1="234.22099"
        x2="695.245"
-       y2="662.637"
+       y2="662.63702"
        gradientUnits="userSpaceOnUse">
       <stop
          stop-color="white"
@@ -67,10 +71,10 @@
     </linearGradient>
     <linearGradient
        id="paint2_linear"
-       x1="749.482"
+       x1="749.48199"
        y1="453.685"
-       x2="794.499"
-       y2="826.442"
+       x2="794.49902"
+       y2="826.44202"
        gradientUnits="userSpaceOnUse">
       <stop
          stop-color="white"
@@ -82,9 +86,9 @@
     </linearGradient>
     <linearGradient
        id="paint3_linear"
-       x1="652.911"
-       y1="643.219"
-       x2="660.84"
+       x1="652.91101"
+       y1="643.21899"
+       x2="660.84003"
        y2="862.771"
        gradientUnits="userSpaceOnUse">
       <stop
@@ -97,10 +101,10 @@
     </linearGradient>
     <linearGradient
        id="paint4_linear"
-       x1="997.516"
+       x1="997.51599"
        y1="202.645"
        x2="1004.28"
-       y2="291.221"
+       y2="291.22101"
        gradientUnits="userSpaceOnUse">
       <stop
          stop-color="white"
@@ -113,18 +117,21 @@
     <clipPath
        id="clip0">
       <rect
-         width="843.53"
-         height="837.007"
-         fill="white"
-         transform="translate(245 93)"
-         id="rect321" />
+         width="843.53003"
+         height="837.00702"
+         fill="#ffffff"
+         transform="translate(245,93)"
+         id="rect321"
+         x="0"
+         y="0" />
     </clipPath>
   </defs>
   <g
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     transform="translate(-3.3402179,-67.869941)">
     <g
        style="fill:none"
        id="g428"
@@ -135,7 +142,7 @@
          transform="translate(22.049494,-14.031496)">
         <g
            id="g646"
-           transform="matrix(0.91857533,0,0,0.91857533,96.651058,7.5724939)">
+           transform="matrix(0.91857533,0,0,0.91857533,96.651058,157.90995)">
           <path
              d="m 681.725,839.623 c 198.082,0 358.655,-160.577 358.655,-358.66 0,-198.082 -160.573,-358.659 -358.655,-358.659 -198.082,0 -358.66,160.577 -358.66,358.659 0,198.083 160.578,358.66 358.66,358.66 z"
              stroke="#d1e8f7"

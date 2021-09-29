@@ -1,73 +1,138 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Easy company</title>
-    <meta
-      name="description"
-      content="¿Eres emprendedor, dueño de negocio o empresario? Nosotros te asesoramos en temas legales, contables-administrativos y marketing."
+    <!-- displays site properly based on user's device -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="fav.ico">
+    <link
+      rel="icon"
+      type="image/ico"
+      sizes="32x32"
+      href="./images/fav.ico"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Biryani:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="build/css/app.css" />
-    <!-- Add icon library -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="fav.ico">
+    href="https://fonts.googleapis.com/css2?family=Biryani:wght@400;700;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Add icon library -->
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+
+    <title>Easy Company</title>
   </head>
   <body>
     <header class="header">
-      <div class="nav">
-        <div class="container container-header">
-          <!-- LOGO -->
-          <a href="index.html" class="header-logo">
-            <h1>
-              Easy
-              <span class="company">company</span>
-            </h1>
-          </a>
-          <!-- Navegacion Principal -->
-          <div class="navegacion-principal" id="mostrar-menu">
-            <a href="marketing.html">Marketing</a>
-            <a href="legal.html">Legal</a>
-            <a href="administracionfinanciera.html">Administración financiera</a>
-            <a href="contacto.html">Contacto</a>
-          </div>
-          <!-- Hamburguesa -->
-          <div id="hamburguesa" class="hamburguesa">
-            <i class="fa fa-bars"></i>
-          </div>
-        </div>
-      </div>
+      <div class="overlay has-fade"></div>
 
-      <div class="hero container">
-        <div class="hero-texto">
-          <div class="img">
-            <img src="build/img/logo-nav.webp" alt="logo" />
-          </div>
-          <h2>Hacemos tu empresa más fácil</h2>
+      <nav class="header-container container--pall flex flex-jc-sb flex-ai-c">
+        <a href="/" class="header__logo">
+          <img src="images/logo-nav.webp" alt="Easy company logo" />
+        </a>
+
+        <a id="btnHamburger" href="#" class="header__toggle hide-for-desktop">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+
+        <div class="header__links hide-for-mobile">
+          <a href="#">Home</a><a href="#">About</a><a href="#">Contact</a
+          ><a href="#">Blog</a><a href="#">Careers</a>
         </div>
-        <div class="hero-svg">
-          <img src="build/svg/scenes01.svg" alt="Image about digital work" />
-        </div>
+      </nav>
+
+      <div class="header__menu has-fade">
+        <a href="">Marketing</a>
+        <a href="">Legal</a>
+        <a href="">Administracion</a>
+        <a href="">Contacto</a>
       </div>
     </header>
 
-    <div class="container container-principal text-center">
-      <img src="build/img/construyendo.webp" alt="construyendo" />
-      <h3>Construyendo</h3>
-    </div>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero__text container--pall">
+          <h1>Easy <span>Company</span></h1>
+          <h2>
+            Hacemos tu empresa más fácil
+          </h2>
+        </div>
+
+        <div class="hero__image">
+          <img src="images/scenes01.svg" alt="">
+        </div>
+
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature__content container container--pall">
+        <div class="feature__intro">
+          <h2>¿Por qué elegir a Easy Company?</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum similique deleniti vel quam nemo recusandae eos debitis fuga, sapiente ut iure nobis dolores nesciunt sequi veritatis maxime dignissimos tenetur consequatur!
+          </p>
+        </div>
+
+        <div class="feature__grid">
+          <div class="feature__item">
+            <div class="feature__icon">
+              <img src="/images/icon-marketing.svg" />
+            </div>
+            <div class="feature__title">Marketing</div>
+            <div class="feature__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, sit accusamus. Fugit explicabo voluptatem optio molestias nesciunt ipsam recusandae natus.
+            </div>
+          </div>
+
+          <div class="feature__item">
+            <div class="feature__icon">
+              <img src="/images/icon-financiera.svg" />
+            </div>
+            <div class="feature__title">Administracion Financiera</div>
+            <div class="feature__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, sit accusamus. Fugit explicabo voluptatem optio molestias nesciunt ipsam recusandae natus.
+            </div>
+          </div>
+
+          <div class="feature__item">
+            <div class="feature__icon">
+              <img src="/images/icon-legal.svg" />
+            </div>
+            <div class="feature__title">Asesoria Legal</div>
+            <div class="feature__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, sit accusamus. Fugit explicabo voluptatem optio molestias nesciunt ipsam recusandae natus.
+            </div>
+          </div>
+
+          <div class="feature__item">
+            <div class="feature__icon"><img src="/images/icon-precios.svg" /></div>
+            <div class="feature__title">Precios Competitivos</div>
+            <div class="feature__description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, sit accusamus. Fugit explicabo voluptatem optio molestias nesciunt ipsam recusandae natus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
 
     <footer class="footer">
       <div class="footer-legal">
@@ -80,11 +145,11 @@
         </p>
       </div>
 
-      
+
       <div class="footer-social">
         <div class="footer-social-logo">
           <a href="#">
-            <img src="build/img/logo-nav.webp" alt="logo" />
+            <img src="images/logo-nav.webp" alt="logo" />
           </a>
         </div>
         <div class="footer-social-flex">
@@ -112,6 +177,7 @@
         <a href="contacto.html">Contacto</a>
       </div>
     </footer>
-    <script src="build/js/bundle.min.js"></script>
+
+    <script src="dist/app.js"></script>
   </body>
 </html>
