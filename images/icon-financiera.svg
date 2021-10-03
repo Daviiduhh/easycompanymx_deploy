@@ -4,7 +4,7 @@
    height="72"
    version="1.1"
    id="svg15"
-   sodipodi:docname="icon-precios.svg"
+   sodipodi:docname="icon-financiera.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -21,7 +21,7 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="7.7777778"
-     inkscape:cx="45"
+     inkscape:cx="44.164286"
      inkscape:cy="36.064286"
      inkscape:window-width="1366"
      inkscape:window-height="745"
@@ -62,10 +62,10 @@
        inkscape:collect="always"
        xlink:href="#azul"
        id="linearGradient986"
-       x1="0"
-       y1="36"
-       x2="90.64286"
-       y2="2.5714288"
+       x1="-4.1142855"
+       y1="71.099998"
+       x2="5.0142894"
+       y2="63.257141"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g
@@ -75,10 +75,10 @@
     <circle
        cx="36"
        cy="36"
-       r="36"
        fill="url(#a)"
        id="circle9"
-       style="mix-blend-mode:normal;fill:url(#linearGradient986);fill-opacity:1;opacity:1;paint-order:stroke fill markers" />
+       style="mix-blend-mode:normal;fill:url(#linearGradient986);fill-opacity:1;opacity:1;paint-order:stroke fill markers"
+       r="36" />
     <path
        fill="#FFF"
        fill-rule="nonzero"
